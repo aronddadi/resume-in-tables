@@ -1,0 +1,183 @@
+/*General & Re-usables */
+html{
+  background-color:#b7b7b7;
+}
+body{
+  width:90%;
+  margin:20px auto;
+  background-color:#f1f1f1;
+  font-size:12px;
+  font-family:'Helvetica', 'Arial', sans-serif;
+}
+
+.small{
+  font-size:9px;
+  letter-spacing:0.4;
+}
+.blue{
+  color:steelblue;
+}
+
+.big{
+  font-size:50px;
+  letter-spacing:1.2px;
+  font-weight:bold;
+}
+.upper{
+  text-transform:uppercase;
+}
+.medium{
+    font-size:16px;
+    font-weight:bold;
+
+  }
+.subtitle{
+    font-weight:bold;
+    font-size:14px;
+  }
+  .jobdesc{
+    padding-bottom:15px;
+  }
+/*Top Content */
+.resume p{
+  margin-left:20px;
+  width:8%;
+  background-color:steelblue;
+  color:white;
+  padding:35px 4px 5px 4px;
+  text-align:center;
+}
+.resume{
+  width:100%;
+}
+.top{
+  width:90%;
+}
+
+
+
+
+
+
+#title{
+  display:inline-block;
+  width:49%;
+  /*border:solid black 2px;*/
+  margin-left:5%;
+  margin-top:-10px;
+}
+
+.main{
+  width:100%;
+  min-width:600px;
+}
+
+.contact{
+  font-size:14px;
+  display:inline-block;
+  width:40%;
+  /*border: solid yellow 2px;*/
+
+}
+.jobtitle{
+  font-size:23px;
+}
+
+.left{
+  display:inline-block;
+  margin-left:6%;
+  width:43%;
+  padding-bottom:10%;
+  /*border:solid green 5px;*/
+}
+.date{
+  width:30%;
+}
+
+/*Bottom left of page + big margin to get there */
+
+.dist{
+  padding-bottom:150px;
+}
+
+/* Top right aka "skills" + Personal skills + Workplay balance */
+
+
+.right{
+  padding-left:10%;
+  margin-top:-10%;
+  display:inline-block;
+  width:40%;
+  /*border:solid red 2px;*/
+}
+
+.disttwo{padding-bottom:130px;}
+
+.inbetween{
+  font-size:19px;
+  font-weight:bold;
+  padding-bottom:20px;
+}
+
+.space{
+  word-spacing:2em;
+}
+
+.spacebetween{
+  padding-bottom:25px;
+  padding-top:0;
+}
+
+.borderbot{
+  border-bottom:solid steelblue 1px;
+  padding-bottom:5%;
+}
+
+.work p{
+  width:60%;
+  color:white;
+  opacity:0.8;
+  font-size:25px;
+  background-color:steelblue;
+  padding:5px 2px 25px 2px;
+  text-align:center;
+  transform-origin:left;
+  transform:translate(-40%,70%) rotatez(300deg);
+  margin-left:-30px;
+
+}
+
+.play p{
+  font-size:25px;
+  color:white;
+  opacity:0.8;
+  background-color:steelblue;
+  width:130%;
+  transform-origin:left;
+  transform:translate(-208%,55%) rotatez(300deg);
+  padding:25px 2px 5px 2px;
+
+}
+
+.getleft{
+  transform:translate(-150%);
+}
+
+progress{
+  border:none;
+}
+progress::-webkit-progress-bar {
+
+
+}
+progress::-webkit-progress-value {
+
+
+}
+
+footer{
+  margin-top:20px;
+  width:100%;
+  background-color:steelblue;
+  height:20px;
+}
